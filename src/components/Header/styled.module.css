@@ -1,0 +1,45 @@
+.containerHeader {
+  width: 95%;
+  aspect-ratio: 4/1.4;
+  min-height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 10px solid white;
+  margin: auto;
+}
+
+.picture {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.imgLogo {
+  height: 80%;
+  width: auto;
+}

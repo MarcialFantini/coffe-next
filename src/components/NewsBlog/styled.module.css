@@ -1,0 +1,42 @@
+.containerAll {
+  overflow: hidden;
+}
+
+.carrusel {
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+  height: auto;
+  transition: all 0.3s;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.page {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 5px;
+  background: white;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 2rem;
+
+  transition: all 0.3s;
+}
+
+.buttons button:disabled {
+  background: whitesmoke;
+  color: black;
+}

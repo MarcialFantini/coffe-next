@@ -1,0 +1,51 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+}
+
+.cardContainer:hover .img {
+  transform: scale(1.2);
+}
+
+.titleProduct {
+  color: rgb(80, 71, 65);
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: rgb(80, 71, 65);
+}
+
+.button {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+
+  background: none;
+  border: rgb(197, 196, 196) 1px solid;
+
+  transition: all 0.3s;
+
+  cursor: pointer;
+
+  margin: 10px 0;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+}

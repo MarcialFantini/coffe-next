@@ -1,0 +1,30 @@
+.productSide {
+  grid-column: 1/4;
+  width: 100%;
+  height: auto;
+  background: white;
+
+  border-radius: 5px;
+  padding: 0 5%;
+}
+
+.titleProduct {
+  font-size: 2.6rem;
+  color: #504741;
+  margin: 20px 0;
+}
+
+.containerProducts {
+  width: 100%;
+  gap: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .productSide {
+    grid-column: 1/5;
+  }
+}

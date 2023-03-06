@@ -1,0 +1,9 @@
+.containerNewsPage {
+  width: 95%;
+  margin: auto;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  box-shadow: 0 0 10px 1px;
+}
