@@ -1,0 +1,81 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[3]!./src/components/Contact/styled.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.styled_contactContainer__OtmxI {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+
+  background: white;
+
+  padding: 0 5%;
+
+  border-radius: 5px;
+}
+
+.styled_titleContact__1_3kz {
+  color: #504741;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.styled_text__YqisI {
+  color: #504741;
+  font-size: 2rem;
+}
+
+.styled_form__WVX5n {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.styled_form__WVX5n label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  font-size: 1.6rem;
+  color: black;
+  margin: 10px;
+}
+
+.styled_form__WVX5n label input {
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.styled_form__WVX5n label textarea {
+  min-height: 200px;
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.styled_button__PNoKC {
+  cursor: pointer;
+
+  margin: 20px auto 20px 0;
+  padding: 15px 20px;
+
+  font-size: 2rem;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #99cc33;
+  color: white;
+
+  transition: all 0.3s;
+}
+
+.styled_button__PNoKC:hover {
+  color: #99cc33;
+  background: #504741;
+}
+

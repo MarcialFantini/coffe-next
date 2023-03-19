@@ -1,0 +1,47 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[3]!./src/components/CardNew/styled.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.styled_containerCard__GAWSg {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  background: white;
+  margin: 1px 0;
+}
+
+.styled_picture__RyN2P {
+  min-height: 150px;
+  max-height: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.styled_img__SO2BZ {
+  width: 100%;
+  height: auto;
+}
+
+.styled_containerText__5ETCB {
+  min-height: 150px;
+  max-height: 400px;
+
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.styled_containerText__5ETCB h2 {
+  font-size: 3rem;
+  color: #504741;
+}
+
+.styled_containerText__5ETCB p {
+  font-size: 1.6rem;
+  color: #504741;
+}
+

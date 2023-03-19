@@ -1,21 +1,39 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 
 import styled from "./styled.module.css";
 import ProductItem from "../ProductItem";
-const products: string[] = [];
+import { useAppDispatch, useAppSelector } from "@/store/hooks";
 
-for (let i = 0; i < 12; i++) {
-  products.push("");
-}
+import Link from "next/link";
+import { fetchProducts } from "@/store/slice/products/ThunksUser";
 
 export default function ProductsSide() {
+  const dispatch = useAppDispatch();
+  const page = useAppSelector((state) => state.products.currentPage);
+  const pageProducts = useAppSelector((state) => state.products.products);
+  useEffect(() => {
+    dispatch<any>(fetchProducts(page));
+  }, [page, dispatch]);
+
   return (
     <div className={styled.productSide}>
-      <h1 className={styled.titleProduct}>PRODUCTS</h1>
+      <div>
+        <h1 className={styled.titleProduct}>PRODUCTS</h1>
+        <Link href="/shop/car">
+          <h2>Car</h2>
+        </Link>
+      </div>
+
       <div className={styled.containerProducts}>
-        {products.map((value) => (
-          <ProductItem></ProductItem>
-        ))}
+        {pageProducts.length !== 0 ? (
+          pageProducts.map((value) => (
+            <ProductItem key={value.id} item={value} />
+          ))
+        ) : (
+          <div>not found</div>
+        )}
       </div>
     </div>
   );

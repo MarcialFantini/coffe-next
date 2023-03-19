@@ -1,0 +1,84 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[3]!./src/components/CardSimple/styled.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.styled_containerCard__ObPN0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px black;
+
+  background: white;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.styled_containerCard__ObPN0:hover .styled_img__8qS9v {
+  transform: scale(1.2);
+}
+.styled_containerCard__ObPN0:hover {
+  transform: scale(1.1);
+}
+
+.styled_picture__uEKbF {
+  min-height: 300px;
+  max-height: 400px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.styled_img__8qS9v {
+  width: auto;
+  height: 100%;
+}
+
+.styled_containerText__AQMIR {
+  width: 100%;
+  height: 100%;
+
+  padding: 1% 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.styled_containerText__AQMIR > h2 {
+  font-size: 3rem;
+  color: #504741;
+}
+
+.styled_containerText__AQMIR > p {
+  font-size: 2rem;
+  color: #504741;
+}
+
+.styled_containerText__AQMIR > button {
+  background: #99cc33;
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  height: auto;
+
+  padding: 10px;
+  border-radius: 10px;
+
+  border: none;
+
+  margin: 20px 0;
+  transition: all 0.3s;
+  cursor: \;;
+}
+
+.styled_containerText__AQMIR > button:hover {
+  background: #504741;
+}
+

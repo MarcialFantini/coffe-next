@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "./styled.module.css";
 
-export default function Contact() {
+export default function ContactComponent() {
   return (
     <div className={styled.contactContainer}>
       <h1 className={styled.titleContact}>CONTACT</h1>

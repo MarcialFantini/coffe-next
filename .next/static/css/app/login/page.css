@@ -1,0 +1,112 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[3]!./src/components/RegisterPage/styled.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.styled_containerPop__OLWVS {
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  gap: 30px;
+
+  color: white;
+}
+
+.styled_titleH1__sXf0d {
+  text-align: center;
+  color: black;
+  font-size: 2.8rem;
+}
+
+.styled_formRegister___Jp6Z {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  gap: 20px;
+  padding: 20px;
+
+  margin: auto;
+}
+
+.styled_formRegister___Jp6Z h2 {
+  font-size: 2rem;
+}
+
+.styled_formRegister___Jp6Z label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  font-size: 1.6rem;
+}
+
+.styled_formRegister___Jp6Z label input {
+  padding: 10px;
+}
+
+.styled_titleH2__ewqj7 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.styled_formLogin__vAn14 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+
+  border-radius: 10px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.styled_formLogin__vAn14 h2 {
+  font-size: 2rem;
+}
+
+.styled_formLogin__vAn14 label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+.styled_formLogin__vAn14 label input {
+  padding: 10px;
+}
+
+.styled_btnSubmit__zRjyB {
+  cursor: pointer;
+
+  height: auto;
+  background: black;
+  color: white;
+
+  font-size: 2rem;
+  padding: 10px;
+
+  border-radius: 10px;
+
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.styled_btnSubmit__zRjyB:hover {
+  background: rgb(219, 129, 11);
+}
+

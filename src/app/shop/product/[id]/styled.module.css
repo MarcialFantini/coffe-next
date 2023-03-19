@@ -1,0 +1,56 @@
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.containerPage {
+  width: 95%;
+  background: white;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.containerPage picture {
+  min-height: 300px;
+  width: 100%;
+  overflow: auto;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.text h1 {
+  font-size: 4rem;
+  text-decoration: underline brown;
+}
+
+.text p {
+  text-align: start;
+  font-size: 2rem;
+}
+
+.btn {
+  width: 100%;
+  background: black;
+  color: white;
+
+  font-size: 2rem;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: gold;
+}

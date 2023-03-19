@@ -9,10 +9,10 @@ export function Header() {
   return (
     <header className={styled.containerHeader}>
       <picture className={styled.picture}>
-        <Image className={styled.img} alt="forest" src={srcImage}></Image>
+        <Image alt="bosque" className={styled.img} src={srcImage}></Image>
       </picture>
       <div className={styled.text}>
-        <Image className={styled.imgLogo} alt="logo" src={logoSrc}></Image>
+        <Image className={styled.imgLogo} alt="imgLogo" src={logoSrc}></Image>
       </div>
     </header>
   );

@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import srcLogo from "../../images/navbar/logo.svg";
 
 import styled from "./styled.module.css";
 import Link from "next/link";
