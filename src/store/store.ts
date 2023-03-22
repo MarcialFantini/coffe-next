@@ -3,9 +3,15 @@ import thunkMiddleware from "redux-thunk";
 import products from "./slice/products/products";
 import { carReducer } from "./slice/car/car";
 import { userReducer } from "./slice/user/user";
+import { adminReducer } from "./slice/admin/admin";
 
 export const store = configureStore({
-  reducer: { products, car: carReducer, user: userReducer },
+  reducer: {
+    products,
+    car: carReducer,
+    user: userReducer,
+    admin: adminReducer,
+  },
   middleware: [thunkMiddleware],
 });
 

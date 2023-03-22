@@ -30,6 +30,7 @@ export default function ProductItem({ item }: { item: Product }) {
   return (
     <div className={styled.cardContainer}>
       <picture className={styled.picture}>
+        <h2>Id:{item.id}</h2>
         <Image
           width={1200}
           height={1200}

@@ -17,6 +17,8 @@ export default function ProductsSide() {
     dispatch<any>(fetchProducts(page));
   }, [page, dispatch]);
 
+  console.log(pageProducts);
+
   return (
     <div className={styled.productSide}>
       <div>
@@ -29,7 +31,9 @@ export default function ProductsSide() {
       <div className={styled.containerProducts}>
         {pageProducts.length !== 0 ? (
           pageProducts.map((value) => (
-            <ProductItem key={value.id} item={value} />
+            <>
+              <ProductItem key={value.id + "-key"} item={value} />
+            </>
           ))
         ) : (
           <div>not found</div>
